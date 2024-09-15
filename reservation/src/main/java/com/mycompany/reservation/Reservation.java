@@ -6,7 +6,7 @@ public class Reservation {
     public static void main(String[] args) {
         Scanner d = new Scanner(System.in);
         
-        System.out.println("Welcom to Hotel FTR. Reservation");
+        System.out.println("Welcome to Hotel FTR. Reservation");
         
         
         System.out.print("Enter Name: ");
