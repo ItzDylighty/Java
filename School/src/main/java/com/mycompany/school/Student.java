@@ -23,8 +23,9 @@ public class Student {
         System.out.println("Grade: " + this.grade);
     }
     
-    public void updateInformation(String upName, int upGrade){
-       this.name = upName;
+    public void updateInformation(int upID, String upName, int upGrade){
+       this.name = upID;
+        this.name = upName;
        this.grade = upGrade;
        System.out.println("Updated Information.");
        
