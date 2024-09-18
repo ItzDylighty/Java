@@ -6,7 +6,7 @@ public class School {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         
-        System.out.print("Enter StudentID: ");
+        System.out.print("Enter Student ID: ");
         int studentID = scn.nextInt();
         scn.nextLine();
         System.out.print("Enter Student Name: ");
@@ -20,12 +20,14 @@ public class School {
         
         student.enrollStudent();
         student.viewGrades();
-        
+
+        System.out.print("Enter Update ID: ");
+        String upName = scn.nextLine();
         System.out.print("Enter Update name: ");
         String upName = scn.nextLine();
         System.out.print("Enter Update Grades: ");
         int upGrade = scn.nextInt();
-        student.updateInformation(upName, upGrade);
+        student.updateInformation(upID, upName, upGrade);
         
     }
 }
