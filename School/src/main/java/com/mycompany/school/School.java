@@ -22,7 +22,7 @@ public class School {
         student.viewGrades();
 
         System.out.print("Enter Update ID: ");
-        String upName = scn.nextLine();
+        int upID = scn.nextInt();
         System.out.print("Enter Update name: ");
         String upName = scn.nextLine();
         System.out.print("Enter Update Grades: ");
